@@ -24,7 +24,7 @@ public interface OrderService {
 
     Order get(Integer id);
 
-    List list();
+    List<Order> list();
 
     List list(Integer uid, String excludedStatus);
 }
